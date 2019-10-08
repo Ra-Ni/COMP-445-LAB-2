@@ -192,7 +192,7 @@ The server needs to adhere to the formatting rules of an HTTP Response:
 
 - The Version field refers to the request message's version field.
 
-- The Status Code and Phrase fields are self created by the server. It is **required** for the server to have at least the following
+- The Status Code and Phrase fields are self created by the server. It is **required** for the server to have at least all of the following
  status codes and phrases: 
     ```
     <Status Code : Phrase>
