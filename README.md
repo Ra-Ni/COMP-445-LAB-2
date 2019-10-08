@@ -248,7 +248,7 @@ Hello World!
 If the file does not exist, then the server replies with:
 
 ```
-HTTP/1.0 400 Bad Request
+HTTP/1.0 404 Not Found
 User-Agent: Concordia
 
 
