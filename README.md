@@ -26,7 +26,7 @@ java.net.URI
 <other typical classes>
 ```
 
-The following class is **NOT** legal:
+The following classes are **NOT** legal:
 ```
 java.net.HttpUrlConnection
 java.net.HttpsUrlConnection
