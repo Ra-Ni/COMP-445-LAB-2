@@ -270,7 +270,7 @@ It is **required** that the httpfs options have the following syntax:
 
 ```
     httpfs [-v] [-p PORT] [-d PATH-TO-DIR]
-    httpfs //this prints HELP
+    httpfs help //this prints HELP
 ```
 
 - The options **should** be detected in an unordered fashion.
