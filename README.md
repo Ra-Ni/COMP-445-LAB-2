@@ -161,7 +161,9 @@ created a BufferedReader to read the request of the client. This request was pri
 ![](img/ServerSocketReadIn.png)
 
 From this, we can assume that the client was using FireFox, set to the US-English language, with a request to keep the connection alive.
-Notice that it's also a get request, that's why it contains no bodies.
+Notice that it's also a get request, that's why it contains no body.
+
+Also, a person with a keen eye can see that jshell is being blocked by an infinite while loop. This must be fixed, but how? Finding the solution requires a little bit of research.
 
 #### Server Socket Writer
 In the example below, The web browser(= client = httpc) connected to the server. The server (ignoring the request), decides to
